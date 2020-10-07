@@ -11,6 +11,21 @@ O projeto possui as seguintes funcionalidade:
  * Consulta às informações do filme da saga Star Wars pelo id do filme através de um GET em /starwars/movies?id=<id_film>. Ex: http://localhost:8080/starwars/movies?id=1
  * Listagem das informações dos filmes da saga Star Wars através de um GET em /starwars/movies. Ex: http://localhost:8080/starwars/movies
  * Remoção do cache no redis das informações do filme da saga Star Wars pelo id do filme através de um DELETE em /starwars/movies/<id_film>. Ex: http://localhost:8080/starwars/movies/1
+ 
+Como Executar o projeto com Docker
+-----
+
+1 - Execute o redis no docker:  
+
+docker run -d -p 6379:6379 -i -t --name redis redis:latest
+
+2 - Faça o download da aplicação:
+
+docker pull julianneportugal/node
+
+3 - Execute a aplicação:
+
+docker run -p 8080:8080 julianneportugal/movies
 
 Como gerar o jar do projeto
 -----

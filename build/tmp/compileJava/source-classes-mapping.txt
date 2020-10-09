@@ -1,0 +1,27 @@
+br/com/globoplay/services/FilmService.java
+ br.com.globoplay.services.FilmService
+br/com/globoplay/models/ValidateError.java
+ br.com.globoplay.models.ValidateError
+br/com/globoplay/movies/config/ValidateErrorHandler.java
+ br.com.globoplay.movies.config.ValidateErrorHandler
+br/com/globoplay/models/FilmDto.java
+ br.com.globoplay.models.FilmDto
+br/com/globoplay/utils/TruststoreConfiguration.java
+ br.com.globoplay.utils.TruststoreConfiguration
+ br.com.globoplay.utils.TruststoreConfiguration$1
+br/com/globoplay/exceptions/NotFoundException.java
+ br.com.globoplay.exceptions.NotFoundException
+br/com/globoplay/models/FilmsAll.java
+ br.com.globoplay.models.FilmsAll
+br/com/globoplay/services/RedisService.java
+ br.com.globoplay.services.RedisService
+br/com/globoplay/models/Film.java
+ br.com.globoplay.models.Film
+br/com/globoplay/movies/ServletInitializer.java
+ br.com.globoplay.movies.ServletInitializer
+br/com/globoplay/movies/controllers/FilmController.java
+ br.com.globoplay.movies.controllers.FilmController
+br/com/globoplay/services/SwapiService.java
+ br.com.globoplay.services.SwapiService
+br/com/globoplay/movies/MoviesApplication.java
+ br.com.globoplay.movies.MoviesApplication

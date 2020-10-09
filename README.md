@@ -19,7 +19,7 @@ Na pasta do projeto execute os seguintes comandos:
 
 docker-compose build
 
-docker compose up -d
+docker-compose up -d
 
 Como gerar o jar do projeto
 -----

@@ -7,18 +7,23 @@ services:
     image: julianneportugal/movies
     container_name: movies
     ports: 
-      - "80:80"
+      - "8080:8080"
     networks: 
       - films-network
     depends_on:
-      - "redis"
-  redis: 
+      - "redismovies"
+    links:
+      - "redismovies:redismovies"
+  redismovies: 
     image: redis
     command: redis-server
     networks: 
       - films-network
     ports:
       - "6379:6379"
+    hostname: redismovies
+    expose:
+      - "6379"
 networks: 
   films-network: 
     driver: bridge

@@ -92,7 +92,7 @@ public class FilmService {
 			this.redisService.save(idFilm.toString(), filmSwapi);
 			return film;
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			throw e;
 		}
 	}
